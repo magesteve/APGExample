@@ -1,0 +1,15 @@
+{
+  "originHash" : "0dd0d1a740192bbded28c810c3492422060c25982e84563c136c5dd56b1f1c3a",
+  "pins" : [
+    {
+      "identity" : "apgintentkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/magesteve/APGIntentKit",
+      "state" : {
+        "revision" : "aab9d9555fed64656d609c4ac42c6df2b9db4d1a",
+        "version" : "0.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}

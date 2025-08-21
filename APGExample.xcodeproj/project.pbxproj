@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA95F8842E56A2EC000A5095 /* APGIntentKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA95F8832E56A2EC000A5095 /* APGIntentKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA95F8652E56A2E1000A5095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA95F8482E56A2DF000A5095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA95F84F2E56A2DF000A5095;
+			remoteInfo = APGExample;
+		};
+		AA95F86F2E56A2E1000A5095 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA95F8482E56A2DF000A5095 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA95F84F2E56A2DF000A5095;
+			remoteInfo = APGExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA95F8502E56A2DF000A5095 /* APGExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APGExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA95F8642E56A2E1000A5095 /* APGExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APGExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA95F86E2E56A2E1000A5095 /* APGExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APGExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AA95F8762E56A2E1000A5095 /* Exceptions for "APGExample" folder in "APGExample" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = AA95F84F2E56A2DF000A5095 /* APGExample */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA95F8522E56A2DF000A5095 /* APGExample */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AA95F8762E56A2E1000A5095 /* Exceptions for "APGExample" folder in "APGExample" target */,
+			);
+			path = APGExample;
+			sourceTree = "<group>";
+		};
+		AA95F8672E56A2E1000A5095 /* APGExampleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = APGExampleTests;
+			sourceTree = "<group>";
+		};
+		AA95F8712E56A2E1000A5095 /* APGExampleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = APGExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA95F84D2E56A2DF000A5095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA95F8842E56A2EC000A5095 /* APGIntentKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA95F8612E56A2E1000A5095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA95F86B2E56A2E1000A5095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA95F8472E56A2DF000A5095 = {
+			isa = PBXGroup;
+			children = (
+				AA95F8522E56A2DF000A5095 /* APGExample */,
+				AA95F8672E56A2E1000A5095 /* APGExampleTests */,
+				AA95F8712E56A2E1000A5095 /* APGExampleUITests */,
+				AA95F8512E56A2DF000A5095 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA95F8512E56A2DF000A5095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA95F8502E56A2DF000A5095 /* APGExample.app */,
+				AA95F8642E56A2E1000A5095 /* APGExampleTests.xctest */,
+				AA95F86E2E56A2E1000A5095 /* APGExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA95F84F2E56A2DF000A5095 /* APGExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA95F8772E56A2E1000A5095 /* Build configuration list for PBXNativeTarget "APGExample" */;
+			buildPhases = (
+				AA95F84C2E56A2DF000A5095 /* Sources */,
+				AA95F84D2E56A2DF000A5095 /* Frameworks */,
+				AA95F84E2E56A2DF000A5095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA95F8522E56A2DF000A5095 /* APGExample */,
+			);
+			name = APGExample;
+			packageProductDependencies = (
+				AA95F8832E56A2EC000A5095 /* APGIntentKit */,
+			);
+			productName = APGExample;
+			productReference = AA95F8502E56A2DF000A5095 /* APGExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA95F8632E56A2E1000A5095 /* APGExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA95F87C2E56A2E1000A5095 /* Build configuration list for PBXNativeTarget "APGExampleTests" */;
+			buildPhases = (
+				AA95F8602E56A2E1000A5095 /* Sources */,
+				AA95F8612E56A2E1000A5095 /* Frameworks */,
+				AA95F8622E56A2E1000A5095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA95F8662E56A2E1000A5095 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA95F8672E56A2E1000A5095 /* APGExampleTests */,
+			);
+			name = APGExampleTests;
+			packageProductDependencies = (
+			);
+			productName = APGExampleTests;
+			productReference = AA95F8642E56A2E1000A5095 /* APGExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA95F86D2E56A2E1000A5095 /* APGExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA95F87F2E56A2E1000A5095 /* Build configuration list for PBXNativeTarget "APGExampleUITests" */;
+			buildPhases = (
+				AA95F86A2E56A2E1000A5095 /* Sources */,
+				AA95F86B2E56A2E1000A5095 /* Frameworks */,
+				AA95F86C2E56A2E1000A5095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA95F8702E56A2E1000A5095 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				AA95F8712E56A2E1000A5095 /* APGExampleUITests */,
+			);
+			name = APGExampleUITests;
+			packageProductDependencies = (
+			);
+			productName = APGExampleUITests;
+			productReference = AA95F86E2E56A2E1000A5095 /* APGExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA95F8482E56A2DF000A5095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					AA95F84F2E56A2DF000A5095 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					AA95F8632E56A2E1000A5095 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AA95F84F2E56A2DF000A5095;
+					};
+					AA95F86D2E56A2E1000A5095 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = AA95F84F2E56A2DF000A5095;
+					};
+				};
+			};
+			buildConfigurationList = AA95F84B2E56A2DF000A5095 /* Build configuration list for PBXProject "APGExample" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA95F8472E56A2DF000A5095;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AA95F8822E56A2EC000A5095 /* XCRemoteSwiftPackageReference "APGIntentKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AA95F8512E56A2DF000A5095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA95F84F2E56A2DF000A5095 /* APGExample */,
+				AA95F8632E56A2E1000A5095 /* APGExampleTests */,
+				AA95F86D2E56A2E1000A5095 /* APGExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA95F84E2E56A2DF000A5095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA95F8622E56A2E1000A5095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA95F86C2E56A2E1000A5095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA95F84C2E56A2DF000A5095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA95F8602E56A2E1000A5095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA95F86A2E56A2E1000A5095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA95F8662E56A2E1000A5095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA95F84F2E56A2DF000A5095 /* APGExample */;
+			targetProxy = AA95F8652E56A2E1000A5095 /* PBXContainerItemProxy */;
+		};
+		AA95F8702E56A2E1000A5095 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA95F84F2E56A2DF000A5095 /* APGExample */;
+			targetProxy = AA95F86F2E56A2E1000A5095 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA95F8782E56A2E1000A5095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = APGExample/APGExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTFNBJMT4H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APGExample/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magesteve.APGExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA95F8792E56A2E1000A5095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = APGExample/APGExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTFNBJMT4H;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APGExample/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magesteve.APGExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA95F87A2E56A2E1000A5095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ZTFNBJMT4H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA95F87B2E56A2E1000A5095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ZTFNBJMT4H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA95F87D2E56A2E1000A5095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTFNBJMT4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magesteve.APGExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APGExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/APGExample";
+			};
+			name = Debug;
+		};
+		AA95F87E2E56A2E1000A5095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTFNBJMT4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magesteve.APGExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APGExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/APGExample";
+			};
+			name = Release;
+		};
+		AA95F8802E56A2E1000A5095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTFNBJMT4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magesteve.APGExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = APGExample;
+			};
+			name = Debug;
+		};
+		AA95F8812E56A2E1000A5095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZTFNBJMT4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magesteve.APGExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = APGExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA95F84B2E56A2DF000A5095 /* Build configuration list for PBXProject "APGExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA95F87A2E56A2E1000A5095 /* Debug */,
+				AA95F87B2E56A2E1000A5095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA95F8772E56A2E1000A5095 /* Build configuration list for PBXNativeTarget "APGExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA95F8782E56A2E1000A5095 /* Debug */,
+				AA95F8792E56A2E1000A5095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA95F87C2E56A2E1000A5095 /* Build configuration list for PBXNativeTarget "APGExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA95F87D2E56A2E1000A5095 /* Debug */,
+				AA95F87E2E56A2E1000A5095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA95F87F2E56A2E1000A5095 /* Build configuration list for PBXNativeTarget "APGExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA95F8802E56A2E1000A5095 /* Debug */,
+				AA95F8812E56A2E1000A5095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA95F8822E56A2EC000A5095 /* XCRemoteSwiftPackageReference "APGIntentKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/APGIntentKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA95F8832E56A2EC000A5095 /* APGIntentKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA95F8822E56A2EC000A5095 /* XCRemoteSwiftPackageReference "APGIntentKit" */;
+			productName = APGIntentKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA95F8482E56A2DF000A5095 /* Project object */;
+}
