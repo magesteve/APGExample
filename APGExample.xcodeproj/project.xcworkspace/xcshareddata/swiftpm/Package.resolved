@@ -1,13 +1,22 @@
 {
-  "originHash" : "0dd0d1a740192bbded28c810c3492422060c25982e84563c136c5dd56b1f1c3a",
+  "originHash" : "1150bd2b079fc3bb0e4a2458e60ab85122337fa62d3df51dc28afec8fc496495",
   "pins" : [
     {
       "identity" : "apgintentkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/magesteve/APGIntentKit",
       "state" : {
-        "revision" : "5612eec9cb85a7d09639d1433b0575f1a14aa315",
-        "version" : "0.3.3"
+        "revision" : "8f892e450f6198b6d37b4d4ea8f61b699459d421",
+        "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "apgworkkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/magesteve/APGWorkKit",
+      "state" : {
+        "revision" : "de6086bc7ec467df578ff83ce1a5bb0ceb290d54",
+        "version" : "0.4.0"
       }
     }
   ],
