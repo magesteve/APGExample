@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/magesteve/APGIntentKit",
       "state" : {
-        "revision" : "aab9d9555fed64656d609c4ac42c6df2b9db4d1a",
-        "version" : "0.3.0"
+        "revision" : "5612eec9cb85a7d09639d1433b0575f1a14aa315",
+        "version" : "0.3.3"
       }
     }
   ],

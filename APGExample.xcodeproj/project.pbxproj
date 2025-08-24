@@ -583,8 +583,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/magesteve/APGIntentKit";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.3.0;
+				kind = exactVersion;
+				version = 0.3.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
