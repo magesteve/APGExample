@@ -1,6 +1,15 @@
 {
-  "originHash" : "1150bd2b079fc3bb0e4a2458e60ab85122337fa62d3df51dc28afec8fc496495",
+  "originHash" : "7ae7de66bf34011044ef65c07c25f33fa339e14f708b356a54af8c347cdda7c2",
   "pins" : [
+    {
+      "identity" : "apgcantripkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/magesteve/APGCantripKit",
+      "state" : {
+        "revision" : "a84213ac509843d077293cf28b571beca5ad3c55",
+        "version" : "0.1.0"
+      }
+    },
     {
       "identity" : "apgintentkit",
       "kind" : "remoteSourceControl",

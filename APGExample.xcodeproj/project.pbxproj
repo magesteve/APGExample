@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA619FD42E5ADFFE003109ED /* APGWorkKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA619FD32E5ADFFE003109ED /* APGWorkKit */; };
+		AA748A282E5B975B00091C89 /* APGCantripKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA748A272E5B975B00091C89 /* APGCantripKit */; };
 		AA95F8842E56A2EC000A5095 /* APGIntentKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA95F8832E56A2EC000A5095 /* APGIntentKit */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA95F8842E56A2EC000A5095 /* APGIntentKit in Frameworks */,
+				AA748A282E5B975B00091C89 /* APGCantripKit in Frameworks */,
 				AA619FD42E5ADFFE003109ED /* APGWorkKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +144,7 @@
 			packageProductDependencies = (
 				AA95F8832E56A2EC000A5095 /* APGIntentKit */,
 				AA619FD32E5ADFFE003109ED /* APGWorkKit */,
+				AA748A272E5B975B00091C89 /* APGCantripKit */,
 			);
 			productName = APGExample;
 			productReference = AA95F8502E56A2DF000A5095 /* APGExample.app */;
@@ -228,6 +231,7 @@
 			packageReferences = (
 				AA95F8822E56A2EC000A5095 /* XCRemoteSwiftPackageReference "APGIntentKit" */,
 				AA619FD12E5ADFE4003109ED /* XCRemoteSwiftPackageReference "APGWorkKit" */,
+				AA748A262E5B975B00091C89 /* XCRemoteSwiftPackageReference "APGCantripKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA95F8512E56A2DF000A5095 /* Products */;
@@ -599,6 +603,14 @@
 				minimumVersion = 0.3.2;
 			};
 		};
+		AA748A262E5B975B00091C89 /* XCRemoteSwiftPackageReference "APGCantripKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/APGCantripKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 		AA95F8822E56A2EC000A5095 /* XCRemoteSwiftPackageReference "APGIntentKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/magesteve/APGIntentKit";
@@ -614,6 +626,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AA619FD12E5ADFE4003109ED /* XCRemoteSwiftPackageReference "APGWorkKit" */;
 			productName = APGWorkKit;
+		};
+		AA748A272E5B975B00091C89 /* APGCantripKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA748A262E5B975B00091C89 /* XCRemoteSwiftPackageReference "APGCantripKit" */;
+			productName = APGCantripKit;
 		};
 		AA95F8832E56A2EC000A5095 /* APGIntentKit */ = {
 			isa = XCSwiftPackageProductDependency;
