@@ -6,13 +6,30 @@
 //
 
 import Cocoa
+import APGCantripKit
 
 class ViewController: NSViewController {
+    
+    var text = AttributedString()
+    private let richTextView = APGMacWidgetRichTextView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        text.cantripH1("Example Code")
+        text.cantripP1("This is a long body of example text to demonstrate scrolling. Add as much content as you like here—paragraphs, code samples, etc")
+
+        richTextView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(richTextView)
+        NSLayoutConstraint.activate([
+            richTextView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            richTextView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            richTextView.topAnchor.constraint(equalTo: view.topAnchor),
+            richTextView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
+
+        // Push content into the widget
+        richTextView.setAttributedText(text)
     }
 
     override var representedObject: Any? {
@@ -20,7 +37,6 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
 
 }
 

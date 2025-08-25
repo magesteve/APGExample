@@ -2,6 +2,9 @@
 
 Source examples for the various APGKit, Swift Packages for Apple Development.
 
+Repository https://github.com/magesteve/APGExample
+
+
 ## APGWorkKit
 
 A SwiftUI package for creating professional MacOS applications in the style of AppleWorks.
