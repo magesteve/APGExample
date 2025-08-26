@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA619FD42E5ADFFE003109ED /* APGWorkKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA619FD32E5ADFFE003109ED /* APGWorkKit */; };
+		AA635DC62E5D1A9300A0BEB7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA635DC52E5D1A9300A0BEB7 /* README.md */; };
+		AA635DC92E5D1AEB00A0BEB7 /* APGMacWidgetKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA635DC82E5D1AEB00A0BEB7 /* APGMacWidgetKit */; };
 		AA748A282E5B975B00091C89 /* APGCantripKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA748A272E5B975B00091C89 /* APGCantripKit */; };
 		AA95F8842E56A2EC000A5095 /* APGIntentKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA95F8832E56A2EC000A5095 /* APGIntentKit */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA635DC52E5D1A9300A0BEB7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AA95F8502E56A2DF000A5095 /* APGExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APGExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA95F8642E56A2E1000A5095 /* APGExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APGExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA95F86E2E56A2E1000A5095 /* APGExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APGExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA635DC92E5D1AEB00A0BEB7 /* APGMacWidgetKit in Frameworks */,
 				AA95F8842E56A2EC000A5095 /* APGIntentKit in Frameworks */,
 				AA748A282E5B975B00091C89 /* APGCantripKit in Frameworks */,
 				AA619FD42E5ADFFE003109ED /* APGWorkKit in Frameworks */,
@@ -104,6 +108,7 @@
 		AA95F8472E56A2DF000A5095 = {
 			isa = PBXGroup;
 			children = (
+				AA635DC52E5D1A9300A0BEB7 /* README.md */,
 				AA95F8522E56A2DF000A5095 /* APGExample */,
 				AA95F8672E56A2E1000A5095 /* APGExampleTests */,
 				AA95F8712E56A2E1000A5095 /* APGExampleUITests */,
@@ -145,6 +150,7 @@
 				AA95F8832E56A2EC000A5095 /* APGIntentKit */,
 				AA619FD32E5ADFFE003109ED /* APGWorkKit */,
 				AA748A272E5B975B00091C89 /* APGCantripKit */,
+				AA635DC82E5D1AEB00A0BEB7 /* APGMacWidgetKit */,
 			);
 			productName = APGExample;
 			productReference = AA95F8502E56A2DF000A5095 /* APGExample.app */;
@@ -232,6 +238,7 @@
 				AA95F8822E56A2EC000A5095 /* XCRemoteSwiftPackageReference "APGIntentKit" */,
 				AA619FD12E5ADFE4003109ED /* XCRemoteSwiftPackageReference "APGWorkKit" */,
 				AA748A262E5B975B00091C89 /* XCRemoteSwiftPackageReference "APGCantripKit" */,
+				AA635DC72E5D1AEB00A0BEB7 /* XCRemoteSwiftPackageReference "APGMacWidgetKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA95F8512E56A2DF000A5095 /* Products */;
@@ -250,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA635DC62E5D1A9300A0BEB7 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +611,14 @@
 				minimumVersion = 0.3.2;
 			};
 		};
+		AA635DC72E5D1AEB00A0BEB7 /* XCRemoteSwiftPackageReference "APGMacWidgetKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/APGMacWidgetKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 		AA748A262E5B975B00091C89 /* XCRemoteSwiftPackageReference "APGCantripKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/magesteve/APGCantripKit";
@@ -626,6 +642,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AA619FD12E5ADFE4003109ED /* XCRemoteSwiftPackageReference "APGWorkKit" */;
 			productName = APGWorkKit;
+		};
+		AA635DC82E5D1AEB00A0BEB7 /* APGMacWidgetKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA635DC72E5D1AEB00A0BEB7 /* XCRemoteSwiftPackageReference "APGMacWidgetKit" */;
+			productName = APGMacWidgetKit;
 		};
 		AA748A272E5B975B00091C89 /* APGCantripKit */ = {
 			isa = XCSwiftPackageProductDependency;

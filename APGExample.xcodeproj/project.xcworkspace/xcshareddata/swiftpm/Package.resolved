@@ -1,13 +1,13 @@
 {
-  "originHash" : "72557dd5a551006b888b455645233dbf7576d15df8c957a42655e8b385ecec0d",
+  "originHash" : "6ad488575a40a81bd3f00e682fba30e535cf7c12be2bcf0d27e63fa2375144ee",
   "pins" : [
     {
       "identity" : "apgcantripkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/magesteve/APGCantripKit",
       "state" : {
-        "revision" : "e8f12ab84bb5d4968d072a68d6745f5e323ee207",
-        "version" : "0.2.0"
+        "revision" : "36030e297b144c00613c1b5914d66d14a0c040de",
+        "version" : "0.2.1"
       }
     },
     {
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "8f892e450f6198b6d37b4d4ea8f61b699459d421",
         "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "apgmacwidgetkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/magesteve/APGMacWidgetKit",
+      "state" : {
+        "revision" : "795ef9773de39943e78fb6a1e00ef200ae52cd96",
+        "version" : "0.1.3"
       }
     },
     {
