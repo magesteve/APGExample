@@ -7,13 +7,13 @@
 
 import Cocoa
 import APGCantripKit
-import APGMacWidgetKit
+import APGWidgetKit
 
 /// View Controller for the document
 /// It uses Cantrip kit to make some rich text, and then displays it using WidgetKit.
 class ViewController: NSViewController {
     
-    private let richTextView = APGMacWidgetRichTextView()
+    private let richTextView = APGWidgetRichTextView()
 
     override func viewDidLoad() {
         super.viewDidLoad()

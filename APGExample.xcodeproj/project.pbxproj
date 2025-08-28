@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		AA619FD42E5ADFFE003109ED /* APGWorkKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA619FD32E5ADFFE003109ED /* APGWorkKit */; };
 		AA635DC62E5D1A9300A0BEB7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AA635DC52E5D1A9300A0BEB7 /* README.md */; };
-		AA635DC92E5D1AEB00A0BEB7 /* APGMacWidgetKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA635DC82E5D1AEB00A0BEB7 /* APGMacWidgetKit */; };
 		AA748A282E5B975B00091C89 /* APGCantripKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA748A272E5B975B00091C89 /* APGCantripKit */; };
 		AA95F8842E56A2EC000A5095 /* APGIntentKit in Frameworks */ = {isa = PBXBuildFile; productRef = AA95F8832E56A2EC000A5095 /* APGIntentKit */; };
+		AAA8C7C82E5FF24E00A8D368 /* APGWidgetKit in Frameworks */ = {isa = PBXBuildFile; productRef = AAA8C7C72E5FF24E00A8D368 /* APGWidgetKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA635DC92E5D1AEB00A0BEB7 /* APGMacWidgetKit in Frameworks */,
+				AAA8C7C82E5FF24E00A8D368 /* APGWidgetKit in Frameworks */,
 				AA95F8842E56A2EC000A5095 /* APGIntentKit in Frameworks */,
 				AA748A282E5B975B00091C89 /* APGCantripKit in Frameworks */,
 				AA619FD42E5ADFFE003109ED /* APGWorkKit in Frameworks */,
@@ -150,7 +150,7 @@
 				AA95F8832E56A2EC000A5095 /* APGIntentKit */,
 				AA619FD32E5ADFFE003109ED /* APGWorkKit */,
 				AA748A272E5B975B00091C89 /* APGCantripKit */,
-				AA635DC82E5D1AEB00A0BEB7 /* APGMacWidgetKit */,
+				AAA8C7C72E5FF24E00A8D368 /* APGWidgetKit */,
 			);
 			productName = APGExample;
 			productReference = AA95F8502E56A2DF000A5095 /* APGExample.app */;
@@ -238,7 +238,7 @@
 				AA95F8822E56A2EC000A5095 /* XCRemoteSwiftPackageReference "APGIntentKit" */,
 				AA619FD12E5ADFE4003109ED /* XCRemoteSwiftPackageReference "APGWorkKit" */,
 				AA748A262E5B975B00091C89 /* XCRemoteSwiftPackageReference "APGCantripKit" */,
-				AA635DC72E5D1AEB00A0BEB7 /* XCRemoteSwiftPackageReference "APGMacWidgetKit" */,
+				AAA8C7C62E5FF24E00A8D368 /* XCRemoteSwiftPackageReference "APGWidgetKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA95F8512E56A2DF000A5095 /* Products */;
@@ -611,14 +611,6 @@
 				minimumVersion = 0.3.2;
 			};
 		};
-		AA635DC72E5D1AEB00A0BEB7 /* XCRemoteSwiftPackageReference "APGMacWidgetKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/magesteve/APGMacWidgetKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.0;
-			};
-		};
 		AA748A262E5B975B00091C89 /* XCRemoteSwiftPackageReference "APGCantripKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/magesteve/APGCantripKit";
@@ -635,6 +627,14 @@
 				minimumVersion = 0.3.3;
 			};
 		};
+		AAA8C7C62E5FF24E00A8D368 /* XCRemoteSwiftPackageReference "APGWidgetKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magesteve/APGWidgetKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -642,11 +642,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AA619FD12E5ADFE4003109ED /* XCRemoteSwiftPackageReference "APGWorkKit" */;
 			productName = APGWorkKit;
-		};
-		AA635DC82E5D1AEB00A0BEB7 /* APGMacWidgetKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = AA635DC72E5D1AEB00A0BEB7 /* XCRemoteSwiftPackageReference "APGMacWidgetKit" */;
-			productName = APGMacWidgetKit;
 		};
 		AA748A272E5B975B00091C89 /* APGCantripKit */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -657,6 +652,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AA95F8822E56A2EC000A5095 /* XCRemoteSwiftPackageReference "APGIntentKit" */;
 			productName = APGIntentKit;
+		};
+		AAA8C7C72E5FF24E00A8D368 /* APGWidgetKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AAA8C7C62E5FF24E00A8D368 /* XCRemoteSwiftPackageReference "APGWidgetKit" */;
+			productName = APGWidgetKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
