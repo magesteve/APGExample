@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/magesteve/APGIntentKit",
       "state" : {
-        "revision" : "46ada54bfd334fda54d14f492af1f1fc9c7c865d",
-        "version" : "0.5.1"
+        "revision" : "85bd6fb0478f79c72384d61d2d94b50f35087322",
+        "version" : "0.5.2"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/magesteve/APGWorkKit",
       "state" : {
-        "revision" : "4c2d49a3745068bb6073b1170121f023fd3549ae",
-        "version" : "0.5.7"
+        "revision" : "0a33df88e130b9d6994f31b8122732b49e9f3de4",
+        "version" : "0.5.9"
       }
     }
   ],

@@ -62,7 +62,28 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         APGWorkAppHelper.shared.getStartedFeaturesListLink = "https://example.com"
         
         APGWorkAppHelper.shared.welcomeSubTitle = "This is a Example App"
-        APGWorkAppHelper.shared.welcomeImageNames = ["welcome-1", "welcome-2", "welcome-3", "welcome-4", "welcome-5"]    
+        APGWorkAppHelper.shared.welcomeImageNames = ["welcome-1", "welcome-2", "welcome-3", "welcome-4", "welcome-5"]
+        
+        APGWorkAppHelper.shared.faqTopics = [
+            APGWorkFAQTopic(title: "Getting Started", entries: [
+                APGWorkFAQEntry(question: "How do I create a new document?",
+                                answer: "Use File > Save or press Command-S."),
+                APGWorkFAQEntry(question: "How do I save?",
+                                answer: "Use File > Save or press Command-S.")
+
+            ]),
+            APGWorkFAQTopic(title: "Becoming Pro", entries: [
+                APGWorkFAQEntry(question: "How do I have it read to me?",
+                                answer: "Use the Voice Inspector."),
+                APGWorkFAQEntry(question: "How do I use the AI?",
+                                answer: "Wait util Rev 2.0 is released.")
+            ])
+
+        ]
+        APGWorkAppHelper.shared.faqReferences = [
+            APGWorkFAQReference(title: "User Guide", ref: "https://example.com/guide"),
+            APGWorkFAQReference(title: "License", ref: "https://example.com/license")
+        ]
 }
 
     /// Simple alert to show message
