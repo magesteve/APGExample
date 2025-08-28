@@ -1,5 +1,5 @@
 {
-  "originHash" : "72557dd5a551006b888b455645233dbf7576d15df8c957a42655e8b385ecec0d",
+  "originHash" : "d00717017ef63cc3b3aed154e445c423a55c417d753992f25d325a67552afe52",
   "pins" : [
     {
       "identity" : "apgcantripkit",
@@ -15,17 +15,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/magesteve/APGIntentKit",
       "state" : {
-        "revision" : "1f5ebfa47a5d8bcdf0777d0cd536b0e63b20e5f4",
-        "version" : "0.5.0"
+        "revision" : "46ada54bfd334fda54d14f492af1f1fc9c7c865d",
+        "version" : "0.5.1"
       }
     },
     {
       "identity" : "apgwidgetkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/magesteve/APGWidgetKit.git",
+      "location" : "https://github.com/magesteve/APGWidgetKit",
       "state" : {
-        "revision" : "84db17ef0370fb8494e73d6d5184e627d64c7a21",
-        "version" : "0.1.0"
+        "revision" : "3bf93114cd0174022652cc15bd6714f2c1881fe0",
+        "version" : "0.1.1"
       }
     },
     {
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/magesteve/APGWorkKit",
       "state" : {
-        "revision" : "f6a6473eb4378b8966a6c5a8c8f911b4ea84458b",
-        "version" : "0.5.0"
+        "revision" : "4c2d49a3745068bb6073b1170121f023fd3549ae",
+        "version" : "0.5.7"
       }
     }
   ],

@@ -31,25 +31,39 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         // Setup Work
         
-        APGWorkMacApp.appInit()
+        APGWorkAppHelper.appInit()
         
-        APGWorkGlobals.shared.workUIColor = .green
-        APGWorkGlobals.shared.addAdditionalMenuIntents(about: ["myDetails"], help: ["myHelp"])
+        APGWorkAppHelper.shared.workRGB = .green
+        APGWorkAppHelper.shared.addAdditionalMenuIntents(about: ["myDetails"], help: ["myHelp"])
 
-        APGWorkGlobals.shared.aboutAcknowledgmentsLink = "https://example.com"
-        APGWorkGlobals.shared.aboutLicensesLink = "https://example.com"
+        APGWorkAppHelper.shared.aboutAcknowledgmentsLink = "https://example.com"
+        APGWorkAppHelper.shared.aboutLicensesLink = "https://example.com"
         
-        APGWorkGlobals.shared.featuresList.append(APGWorkFeatureItem(title: "Detail 1",
+        APGWorkAppHelper.shared.whatsNewFeaturesList.append(APGWorkFeatureItem(title: "New Detail 1",
                                                               description: "This is more details!",
                                                              symbolName: "star.fill"))
-        APGWorkGlobals.shared.featuresList.append(APGWorkFeatureItem(title: "Detail 2",
+        APGWorkAppHelper.shared.whatsNewFeaturesList.append(APGWorkFeatureItem(title: "New Detail 2",
                                                               description: "This is more details!",
                                                               symbolName: "pencil"))
-        APGWorkGlobals.shared.featuresList.append(APGWorkFeatureItem(title: "Detail 3",
+        APGWorkAppHelper.shared.whatsNewFeaturesList.append(APGWorkFeatureItem(title: "New Detail 3",
                                                               description: "This is more details!",
                                                               symbolName: "gearshape.fill"))
-        APGWorkGlobals.shared.featuresListLink = "https://example.com"
-    }
+        APGWorkAppHelper.shared.whatsNewFeaturesListLink = "https://example.com"
+ 
+        APGWorkAppHelper.shared.getStartedFeaturesList.append(APGWorkFeatureItem(title: "Original Detail 1",
+                                                              description: "This is more details!",
+                                                             symbolName: "star.fill"))
+        APGWorkAppHelper.shared.getStartedFeaturesList.append(APGWorkFeatureItem(title: "Original Detail 2",
+                                                              description: "This is more details!",
+                                                              symbolName: "pencil"))
+        APGWorkAppHelper.shared.getStartedFeaturesList.append(APGWorkFeatureItem(title: "Original Detail 3",
+                                                              description: "This is more details!",
+                                                              symbolName: "gearshape.fill"))
+        APGWorkAppHelper.shared.getStartedFeaturesListLink = "https://example.com"
+        
+        APGWorkAppHelper.shared.welcomeSubTitle = "This is a Example App"
+        APGWorkAppHelper.shared.welcomeImageNames = ["welcome-1", "welcome-2", "welcome-3", "welcome-4", "welcome-5"]    
+}
 
     /// Simple alert to show message
     func myAlert(_ text: String) {
@@ -79,11 +93,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         // Place Intent in Menus
         
-        APGIntentMacTools.addMenuBeforeHelp(named: "Tools", tokens: ["myFlag"])
+        APGIntentMacTools.addMenuBeforeHelp(named: "Tools", tokens: [
+            "myFlag",
+            "",
+            APGIntent.about,
+            APGIntent.getStarted,
+            APGIntent.whatsnew,
+            APGIntent.welcome,
+            APGIntent.faq,
+            APGIntent.promos,
+            APGIntent.settings
+        ])
 
         // Place Work in Menus
         
-        APGWorkMacApp.appPrepare()
+        APGWorkAppHelper.appPrepare()
     }
 
     func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
