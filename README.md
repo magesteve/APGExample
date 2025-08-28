@@ -19,11 +19,11 @@ A lightweight Swift package for standardizing UI commands (menu items, toolbar i
 [Repository](https://github.com/magesteve/APGIntentKit)
 
 
-## APGMacWidgetKit
+## APGWidgetKit
 
-A Swift package for containing various useful MacOS windows, views and other widgets.
+A Swift package of handy windows, views, and small “widgets” that can drop into any app.
 
-[Repository](https://github.com/magesteve/APGMacWidgetKit)
+[Repository](https://github.com/magesteve/APGWidgetKit)
 
 
 ## APGCantripKit
