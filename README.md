@@ -31,3 +31,10 @@ A Swift package of handy windows, views, and small “widgets” that can drop i
 A lightweight Swift library of properties, typealiases, and common functions that are useful across Apple platform development.
 
 [Repository](https://github.com/magesteve/APGWorkKit)
+
+---
+
+## License
+
+[MIT License](LICENSE)
+Created by **Steve Sheets**, 2025
