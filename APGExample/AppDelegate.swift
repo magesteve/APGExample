@@ -6,7 +6,9 @@
 //
 
 import Cocoa
+import APGCantripKit
 import APGIntentKit
+import APGWidgetKit
 import APGWorkKit
 
 var gMyFlag = false
@@ -100,13 +102,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Setup the Intent Actions
         
         APGIntentActionList.sharedApp.addAction(token: "myWelcome") { _ in
-            self.myAlert("This is specialized welcome window for the app")
+            APGCantrip.showMessage("This is specialized welcome window for the app")
         }
         APGIntentActionList.sharedApp.addAction(token: "myHelp") { _ in
-            self.myAlert("This is additional help window for the app")
+            APGCantrip.showMessage("This is additional help window for the app")
         }
         APGIntentActionList.sharedApp.addAction(token: "myDetails") { _ in
-            self.myAlert("This is additional Detail window for the app")
+            APGCantrip.showMessage("This is additional Detail window for the app")
         }
         APGIntentActionList.sharedApp.addAction(token: "myFlag",
                                                 action: { _ in gMyFlag = !gMyFlag },

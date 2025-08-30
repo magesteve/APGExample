@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/magesteve/APGWorkKit",
       "state" : {
-        "revision" : "0a33df88e130b9d6994f31b8122732b49e9f3de4",
-        "version" : "0.5.9"
+        "revision" : "b5d76f6b46ce993dbcf6ada42170c6471696f2ff",
+        "version" : "0.5.11"
       }
     }
   ],
