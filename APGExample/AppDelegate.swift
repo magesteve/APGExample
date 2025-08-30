@@ -84,7 +84,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             APGWorkFAQReference(title: "User Guide", ref: "https://example.com/guide"),
             APGWorkFAQReference(title: "License", ref: "https://example.com/license")
         ]
-}
+    }
 
     /// Simple alert to show message
     func myAlert(_ text: String) {
