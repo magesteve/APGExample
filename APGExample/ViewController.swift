@@ -7,6 +7,7 @@
 
 import Cocoa
 import APGCantripKit
+import APGWorkKit
 import APGWidgetKit
 
 /// View Controller for the document
@@ -35,7 +36,7 @@ class ViewController: NSViewController {
         text.cantripP("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, quam in facilisis scelerisque, orci sapien euismod nulla, at efficitur magna mauris vitae magna. Donec nec lorem vel velit ultricies efficitur non nec nisl. Cras viverra, nisi non feugiat malesuada, urna felis fermentum nisl, eget ultrices ipsum mauris vitae tortor. Curabitur vestibulum orci vitae odio sagittis varius. ")
         text.cantripP("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, quam in facilisis scelerisque, orci sapien euismod nulla, at efficitur magna mauris vitae magna. Donec nec lorem vel velit ultricies efficitur non nec nisl. Cras viverra, nisi non feugiat malesuada, urna felis fermentum nisl, eget ultrices ipsum mauris vitae tortor. Curabitur vestibulum orci vitae odio sagittis varius. ")
         text.cantripP("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales, quam in facilisis scelerisque, orci sapien euismod nulla, at efficitur magna mauris vitae magna. Donec nec lorem vel velit ultricies efficitur non nec nisl. Cras viverra, nisi non feugiat malesuada, urna felis fermentum nisl, eget ultrices ipsum mauris vitae tortor. Curabitur vestibulum orci vitae odio sagittis varius. ")
-
+        
         richTextView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(richTextView)
         NSLayoutConstraint.activate([
